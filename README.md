@@ -34,6 +34,22 @@ sample payload:
     "password": "somepw"
 ```
 
+## Run as a docker container
+
+Make sure docker is installed
+
+cd in to root folder (where the dockerfile is at)
+
+``` 
+sudo docker build -t wiley:latest .
+```
+
+```
+docker run -d -p 5000:5000 wiley
+```
+
+server will be served from 0.0.0.0:5000 (or the port that the command is matched to )
+
 Please do contact me on contact@chathuranga.com for any issue. 
 
 Cheers!
