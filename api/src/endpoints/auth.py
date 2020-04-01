@@ -79,5 +79,5 @@ registration_view = RegisterAPI.as_view('register_api')
 login_view = LoginAPI.as_view('login_api')
 
 
-auth_bp.add_url_rule('/register', view_func=registration_view, methods=['POST'])
+auth_bp.add_url_rule('/signup', view_func=registration_view, methods=['POST'])
 auth_bp.add_url_rule('/login', view_func=login_view, methods=['POST'])

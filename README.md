@@ -18,7 +18,10 @@ Note: Its better to use an virtualenv
 ## Endpoints
 
 ### Register
+endpoint: http://localhost:5000/auth/signup
+
 sample payload:
+
 ``` 
 { 
     "email": "valid@email.com",
@@ -27,6 +30,8 @@ sample payload:
 ```
 
 ### Login
+endpoint: http://localhost:5000/auth/login
+
 
 ``` 
 { 
@@ -45,7 +50,7 @@ sudo docker build -t wiley:latest .
 ```
 
 ```
-docker run -d -p 5000:5000 wiley
+sudo docker run -d -p 5000:5000 wiley
 ```
 
 server will be served from 0.0.0.0:5000 (or the port that the command is matched to )
