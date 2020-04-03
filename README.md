@@ -46,11 +46,11 @@ Make sure docker is installed
 cd in to root folder (where the dockerfile is at)
 
 ``` 
-sudo docker build -t wiley:latest .
+sudo docker build -t myapp:latest .
 ```
 
 ```
-sudo docker run -d -p 5000:5000 wiley
+sudo docker run -d -p 5000:5000 myapp
 ```
 
 server will be served from 0.0.0.0:5000 (or the port that the command is matched to )
