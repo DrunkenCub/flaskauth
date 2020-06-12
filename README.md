@@ -9,8 +9,8 @@
 
 - install the requriements using req.txt file in api folder
     ``` pip install -r req.txt ```
-Note: Its better to use an virtualenv
-- run the app using folloeing commands
+Note: Its better to use a virtualenv
+- run the app using following commands
     ``` export FLASK_APP=src/api.py  ```
     ``` flask create-db ``` 
     ``` flask run ```
